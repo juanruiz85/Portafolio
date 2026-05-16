@@ -1,6 +1,7 @@
 /* ============================================
    PORTAFOLIO - JUAN RUIZ
    dev0.0.1: Estilos base del portafolio
+   dev0.0.2: Nuevos estilos para about-details, iconos SVG, contact-links, footer
    ============================================ */
 
 /* --- Reset & Variables --- */
@@ -221,6 +222,46 @@ body {
     color: var(--gray-700);
 }
 
+.about-content p strong {
+    color: var(--dark);
+}
+
+.about-details {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-200);
+}
+
+.about-detail-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--gray-700);
+}
+
+.about-detail-item a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about-detail-item a:hover {
+    text-decoration: underline;
+}
+
+.about-icon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: var(--gray-400);
+    stroke-width: 2;
+}
+
 /* --- Skills --- */
 .skills-grid {
     display: grid;
@@ -245,6 +286,16 @@ body {
 .skill-icon {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.icon-svg {
+    width: 36px;
+    height: 36px;
+    fill: var(--gray-700);
 }
 
 .skill-card h3 {
@@ -337,7 +388,7 @@ body {
     color: var(--white);
     text-decoration: none;
     border-radius: 8px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -347,6 +398,15 @@ body {
     transform: translateY(-2px);
 }
 
+.contact-link img {
+    fill: var(--white);
+}
+
+.contact-link img[src*="clock"] {
+    stroke: var(--white);
+    fill: none;
+}
+
 /* --- Footer --- */
 .footer {
     background: var(--dark);
@@ -354,6 +414,65 @@ body {
     text-align: center;
     padding: 2rem;
     font-size: 0.85rem;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.footer-flag img {
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/* --- Hero Flag --- */
+.hero-flag {
+    margin-bottom: 1rem;
+    animation: fadeInDown 0.8s ease;
+}
+
+.hero-flag img {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Project Link --- */
+.project-tags {
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: gap 0.3s ease;
+}
+
+.project-link:hover {
+    gap: 0.7rem;
+}
+
+.project-link img {
+    fill: var(--primary);
+}
+
+/* --- Animations --- */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* --- Responsive --- */

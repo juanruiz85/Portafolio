@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Ruiz | Portafolio</title>
+    <title>Juan Ruiz | Desarrollador .NET</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- dev0.0.1: Estructura base del portafolio con HTML semantico -->
+    <!-- dev0.0.2: Actualizacion con info profesional, iconos SVG, contacto y enlaces -->
 </head>
 <body>
     <!-- Navegacion -->
@@ -25,10 +25,13 @@
     <!-- Seccion Hero / Inicio -->
     <section id="inicio" class="hero">
         <div class="hero-content">
+            <div class="hero-flag">
+                <img src="assets/flag-mexico.svg" alt="Mexico" width="48" height="32">
+            </div>
             <p class="hero-greeting">Hola, soy</p>
             <h1 class="hero-name">Juan Ruiz</h1>
-            <p class="hero-title">Desarrollador Web</p>
-            <p class="hero-description">Creo experiencias digitales modernas, limpias y funcionales.</p>
+            <p class="hero-title">Desarrollador de Aplicaciones .NET</p>
+            <p class="hero-description">Especializado en .NET Framework, WinForms, APIs y desarrollo web. Creando soluciones robustas y funcionales desde M&eacute;xico.</p>
             <div class="hero-buttons">
                 <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
                 <a href="#contacto" class="btn btn-outline">Contactar</a>
@@ -42,15 +45,33 @@
             <h2 class="section-title">Sobre M&iacute;</h2>
             <div class="about-content">
                 <p>
-                    Soy un desarrollador apasionado por la tecnolog&iacute;a y el dise&ntilde;o web.
-                    Me encanta transformar ideas en proyectos reales, escribiendo c&oacute;digo limpio
-                    y creando interfaces que sean tanto bonitas como funcionales.
+                    Soy desarrollador de software con experiencia en la creaci&oacute;n de aplicaciones
+                    de escritorio y web utilizando <strong>.NET Framework</strong>. Mi especialidad principal
+                    es el desarrollo con <strong>Windows Forms (WinForms)</strong>, donde he construido
+                    aplicaciones completas para la gesti&oacute;n de datos, automatizaci&oacute;n de procesos
+                    y herramientas internas.
                 </p>
                 <p>
-                    Siempre estoy aprendiendo algo nuevo, ya sea un nuevo lenguaje, framework
-                    o herramienta. Creo firmemente que el aprendizaje continuo es la clave
-                    para crecer como profesional en este mundo digital.
+                    Tambi&eacute;n cuento con experiencia en la creaci&oacute;n de <strong>APIs REST</strong>
+                    con .NET, desarrollo web con <strong>ASP Cl&aacute;sico</strong> y <strong>PHP</strong>,
+                    y gesti&oacute;n de bases de datos con <strong>Microsoft SQL Server</strong>,
+                    <strong>MySQL</strong> y <strong>SQLite</strong>. Me considero un desarrollador
+                    pr&aacute;ctico que busca soluciones eficientes a problemas reales.
                 </p>
+                <div class="about-details">
+                    <div class="about-detail-item">
+                        <img src="assets/location-icon.svg" alt="Ubicacion" class="about-icon">
+                        <span>M&eacute;xico</span>
+                    </div>
+                    <div class="about-detail-item">
+                        <img src="assets/github-icon.svg" alt="GitHub" class="about-icon">
+                        <a href="https://github.com/jaruizsct" target="_blank">@jaruizsct</a>
+                    </div>
+                    <div class="about-detail-item">
+                        <img src="assets/clock-icon.svg" alt="WakaTime" class="about-icon">
+                        <a href="https://wakatime.com/@juanruiz85" target="_blank">WakaTime</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -60,25 +81,64 @@
         <div class="container">
             <h2 class="section-title">Habilidades</h2>
             <div class="skills-grid">
+                <!-- Fila 1: Principales -->
                 <div class="skill-card">
-                    <div class="skill-icon">&#128187;</div>
-                    <h3>HTML & CSS</h3>
-                    <p>Estructura y dise&ntilde;o responsive de sitios web modernos.</p>
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#512BD4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>.NET Framework</h3>
+                    <p>Desarrollo de aplicaciones de escritorio con WinForms y APIs RESTful.</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">&#9881;&#65039;</div>
-                    <h3>JavaScript</h3>
-                    <p>Interactividad y l&oacute;gica de aplicaci&oacute;n en el navegador.</p>
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#CC2927" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                    </div>
+                    <h3>SQL Server</h3>
+                    <p>Dise&ntilde;o de bases de datos, stored procedures, consultas optimizadas.</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">&#128295;</div>
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#4479A1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                    </div>
+                    <h3>MySQL</h3>
+                    <p>Gesti&oacute;n de bases de datos relacionales y migraci&oacute;n de datos.</p>
+                </div>
+                <!-- Fila 2: Complementarias -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#00758F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                    </div>
+                    <h3>ASP Cl&aacute;sico</h3>
+                    <p>P&aacute;ginas web din&aacute;micas sin compilaci&oacute;n, desarrollo r&aacute;pido.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#777BB3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>PHP</h3>
+                    <p>Desarrollo web del lado del servidor y aplicaciones web sencillas.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#003B57" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 00-3 3v4a3 3 0 006 0V5a3 3 0 00-3-3z"/><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M12 16v4"/><line x1="8" y1="20" x2="16" y2="20"/></svg>
+                    </div>
+                    <h3>SQLite</h3>
+                    <p>Bases de datos ligeras y embebidas para aplicaciones locales.</p>
+                </div>
+                <!-- Fila 3: Herramientas -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/github-icon.svg" alt="Git" width="36" height="36" class="icon-svg">
+                    </div>
                     <h3>Git & GitHub</h3>
-                    <p>Control de versiones y colaboraci&oacute;n en proyectos.</p>
+                    <p>Control de versiones y colaboraci&oacute;n en proyectos de equipo.</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">&#128640;</div>
-                    <h3>Python</h3>
-                    <p>Scripts, automatizaci&oacute;n y desarrollo backend.</p>
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#E44D26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+                    </div>
+                    <h3>HTML & CSS</h3>
+                    <p>Estructura y estilos para interfaces de usuario y p&aacute;ginas web.</p>
                 </div>
             </div>
         </div>
@@ -92,9 +152,14 @@
                 <div class="project-card">
                     <div class="project-number">01</div>
                     <h3>Portafolio Personal</h3>
-                    <p>Sitio web personal para mostrar mis proyectos y habilidades como desarrollador.</p>
-                    <span class="project-tag">HTML</span>
-                    <span class="project-tag">CSS</span>
+                    <p>Sitio web personal para mostrar mis proyectos y habilidades como desarrollador .NET.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                    </div>
+                    <a href="https://github.com/juanruiz85/Portafolio" target="_blank" class="project-link">
+                        <img src="assets/github-icon.svg" alt="GitHub" width="16" height="16"> Ver en GitHub
+                    </a>
                 </div>
                 <!-- Mas proyectos se agregaran pronto -->
             </div>
@@ -106,10 +171,23 @@
         <div class="container">
             <h2 class="section-title">Contacto</h2>
             <div class="contact-content">
-                <p>&iquest;Tienes un proyecto en mente o quieres colaborar? No dudes en contactarme.</p>
+                <p>&iquest;Tienes un proyecto en mente, una oportunidad laboral o quieres colaborar? No dudes en contactarme.</p>
                 <div class="contact-links">
+                    <a href="mailto:juanruiz85@hotmail.com" class="contact-link">
+                        <img src="assets/email-icon.svg" alt="Email" width="20" height="20">
+                        <span>juanruiz85@hotmail.com</span>
+                    </a>
+                    <a href="https://github.com/jaruizsct" target="_blank" class="contact-link">
+                        <img src="assets/github-icon.svg" alt="GitHub" width="20" height="20">
+                        <span>GitHub (Trabajo)</span>
+                    </a>
                     <a href="https://github.com/juanruiz85" target="_blank" class="contact-link">
-                        <span class="contact-icon">&#128187;</span> GitHub
+                        <img src="assets/github-icon.svg" alt="GitHub" width="20" height="20">
+                        <span>GitHub (Personal)</span>
+                    </a>
+                    <a href="https://wakatime.com/@juanruiz85" target="_blank" class="contact-link">
+                        <img src="assets/clock-icon.svg" alt="WakaTime" width="20" height="20">
+                        <span>WakaTime</span>
                     </a>
                 </div>
             </div>
@@ -118,7 +196,12 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Juan Ruiz. Todos los derechos reservados.</p>
+        <div class="footer-content">
+            <div class="footer-flag">
+                <img src="assets/flag-mexico.svg" alt="Mexico" width="32" height="21">
+            </div>
+            <p>&copy; 2026 Juan Ruiz &mdash; M&eacute;xico. Todos los derechos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>

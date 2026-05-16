@@ -6,6 +6,29 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [dev0.0.2] - 2026-05-17
+
+### Cambiado
+- Título actualizado de "Desarrollador Web" a "Desarrollador de Aplicaciones .NET"
+- Sección "Sobre Mí" reescrita con información profesional real (.NET, WinForms, APIs, bases de datos)
+
+### Añadido
+- Habilidades actualizadas: .NET Framework, SQL Server, MySQL, ASP Clásico, PHP, SQLite, Git, HTML/CSS
+- Iconos SVG locales en carpeta `/assets` (GitHub, email, reloj, ubicación)
+- Bandera de México como SVG local en `/assets/flag-mexico.svg` (sin enlaces externos)
+- Bandera de México en sección Hero con animación fadeInDown
+- Bandera de México en Footer junto al copyright
+- Detalles en "Sobre Mí" con enlaces a ubicación, GitHub (@jaruizsct) y WakaTime
+- Enlace a GitHub de trabajo: https://github.com/jaruizsct
+- Enlace a WakaTime: https://wakatime.com/@juanruiz85
+- Contacto por email: juanruiz85@hotmail.com
+- Sección de contacto con 4 enlaces: Email, GitHub Trabajo, GitHub Personal, WakaTime
+- Iconos SVG inline en tarjetas de habilidades (sin dependencias externas)
+- Link "Ver en GitHub" en tarjeta de proyecto con icono
+- Estilos nuevos: about-details, footer-content, hero-flag, project-link, animaciones
+
+---
+
 ## [dev0.0.1] - 2026-05-17
 
 ### Añadido
