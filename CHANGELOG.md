@@ -6,6 +6,14 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [dev0.0.3] - 2026-05-17
+
+### Añadido
+- Badge de WakaTime debajo del nombre en la sección Hero (total de tiempo programando)
+- Estilo `.hero-badge` con tamaño y bordes redondeados
+
+---
+
 ## [dev0.0.2] - 2026-05-17
 
 ### Cambiado
